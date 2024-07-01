@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "lvlup-project-lib",
+      name: "validateit",
     },
     sourcemap: true,
     target: "es6",
